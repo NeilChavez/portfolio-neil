@@ -372,9 +372,6 @@ section:nth-child(5) .title-section {
 }
 .about-me-section p {
   flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 1.5rem;
   text-align: start;
   padding-top: 1.5rem;
@@ -415,9 +412,9 @@ ul.skills-list {
   /* border: thick solid red;  */
   padding-top: 1rem;
 }
-.skills-list li:last-child {
+/* .skills-list li:last-child {
   grid-column: 1 / 3;
-}
+} */
 .skills-list img {
   width: 2.5rem;
 }
@@ -538,7 +535,7 @@ footer {
     /* border: thick solid red;  */
     padding-top: 1rem;
   }
-  .skills-list li:last-child {
+  /* .skills-list li:last-child {
     grid-column: 2 / 3;
-  }
+  } */
 }
